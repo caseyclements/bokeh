@@ -1,4 +1,10 @@
-require './bokeh'
+Backbone = require 'backbone'
+Backbone._ = require 'underscore'
+$ = require 'jquery'
+Backbone.$ = $
+window.Bokeh =
+  version: '0.9.2'
+  $: $
 
 # set up logger
 logging = require("./common/logging")
